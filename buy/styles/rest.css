@@ -1,0 +1,111 @@
+@charset "utf-8";
+body{
+	font:12px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+     background: #fff;
+     color: #666;
+}
+*{
+	margin: 0;
+	padding: 0;
+	font:inherit;
+}
+.shortcut{
+	width:100%;
+	min-width: 1060px;
+	
+	background: #f1f1f1;
+	
+}
+.shortcut .warp{
+	width: 1060px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+}
+.shortcut .warp .w-l{
+
+	
+	float: left;
+
+}
+.shortcut .warp .w-l strong{
+	margin-left: 20px;
+}
+
+.shortcut .warp .w-l span{
+	padding-right: 20px;
+	color: #308e00;
+	background: url(../images/bottom.png)  no-repeat;
+
+	background-size:10px ;
+	background-position: 90% 50%;
+	
+
+}
+
+.shortcut .warp .w-r{
+	float: right;
+}
+
+.shortcut .wrap .w-r ul{
+	display: table;
+	list-style-type: none;
+
+}
+.shortcut .warp .w-r li{
+	display: inline-block;
+    
+
+	
+	
+}
+.shortcut .warp .w-r .regist{
+	color: #308e00;
+}
+.shortcut .warp .w-r li a{
+    width: 95px;
+    
+	text-decoration: none;
+	color: #828282;
+	padding: 5px 15px;
+}
+.shortcut .warp .w-r li a:hover{
+	color: #308e00;
+}
+.shortcut .warp .w-r .a-down{
+	background:url(../images/bottom.png) 0 0 no-repeat;
+	
+	background-size: 10px;
+	background-position: 95% 50%;
+
+}
+
+ .w-r .hover-car{
+	/*padding-left: 10px;*/
+
+	background: url(../images/car.png) no-repeat;
+	background-size: 15px;
+	background-position: 5% 50%;
+
+	
+}
+.w-r .hover-menu{
+	background: red url(../images/nav1.png) no-repeat;
+    padding-left: 10px;
+    background-size: 10px;
+	background-position: 5% 50%;
+	
+	
+}
+
+.w-r .hover-menu a{
+	background:url(../images/nav1.png) no-repeat;
+	background-size: 10px;
+	background-position: 5% 50%;
+}
+
+
+
+
+
+
